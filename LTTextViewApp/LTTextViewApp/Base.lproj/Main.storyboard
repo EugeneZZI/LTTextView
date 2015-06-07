@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMe-Ic-GX5">
+                                <rect key="frame" x="10" y="464" width="300" height="70"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="FvS-02-fxI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LEN-h1-UVq" userLabel="View1" customClass="LTLinkTextView">
+                                <rect key="frame" x="10" y="44" width="300" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Us-sH-Gy8" userLabel="View1" customClass="LTLinkTextView">
+                                <rect key="frame" x="10" y="184" width="300" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cSo-Cf-Cqq" userLabel="View1" customClass="LTLinkTextView">
+                                <rect key="frame" x="10" y="254" width="300" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W7I-FK-jXD" userLabel="View1" customClass="LTLinkTextView">
+                                <rect key="frame" x="10" y="324" width="300" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vs8-Yl-1Qk" userLabel="View1" customClass="LTLinkTextView">
+                                <rect key="frame" x="10" y="394" width="300" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TG4-0C-QZk" userLabel="View1" customClass="LTLinkTextView">
+                                <rect key="frame" x="10" y="114" width="300" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96332465277777768" green="0.96332465277777768" blue="0.96332465277777768" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uMe-Ic-GX5" secondAttribute="trailing" constant="10" id="0K4-zt-2mW"/>
+                            <constraint firstItem="LEN-h1-UVq" firstAttribute="height" secondItem="cSo-Cf-Cqq" secondAttribute="height" id="0xu-hW-AaB"/>
+                            <constraint firstAttribute="trailing" secondItem="2Us-sH-Gy8" secondAttribute="trailing" constant="10" id="1IA-ex-Ss7"/>
+                            <constraint firstItem="vs8-Yl-1Qk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="4bz-9j-VhL"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="uMe-Ic-GX5" secondAttribute="bottom" constant="34" id="79f-jp-qp3"/>
+                            <constraint firstItem="W7I-FK-jXD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="7cL-U6-yNj"/>
+                            <constraint firstItem="TG4-0C-QZk" firstAttribute="top" secondItem="LEN-h1-UVq" secondAttribute="bottom" constant="20" id="8Ve-XL-WR2"/>
+                            <constraint firstItem="2Us-sH-Gy8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="A4c-fg-ANl"/>
+                            <constraint firstItem="2Us-sH-Gy8" firstAttribute="top" secondItem="TG4-0C-QZk" secondAttribute="bottom" constant="20" id="AGq-DO-EeL"/>
+                            <constraint firstItem="LEN-h1-UVq" firstAttribute="height" secondItem="2Us-sH-Gy8" secondAttribute="height" id="COH-HV-uUT"/>
+                            <constraint firstItem="LEN-h1-UVq" firstAttribute="height" secondItem="vs8-Yl-1Qk" secondAttribute="height" id="FDZ-b2-P2E"/>
+                            <constraint firstItem="LEN-h1-UVq" firstAttribute="height" secondItem="W7I-FK-jXD" secondAttribute="height" id="LLT-Tb-ddi"/>
+                            <constraint firstItem="vs8-Yl-1Qk" firstAttribute="top" secondItem="W7I-FK-jXD" secondAttribute="bottom" constant="20" id="RaB-rO-USH"/>
+                            <constraint firstAttribute="trailing" secondItem="W7I-FK-jXD" secondAttribute="trailing" constant="10" id="TRY-VV-p2v"/>
+                            <constraint firstItem="LEN-h1-UVq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="Ulh-wB-VyL"/>
+                            <constraint firstAttribute="trailing" secondItem="cSo-Cf-Cqq" secondAttribute="trailing" constant="10" id="VCB-Sr-kGc"/>
+                            <constraint firstItem="cSo-Cf-Cqq" firstAttribute="top" secondItem="2Us-sH-Gy8" secondAttribute="bottom" constant="20" id="ZSf-Yr-mUD"/>
+                            <constraint firstItem="LEN-h1-UVq" firstAttribute="height" secondItem="TG4-0C-QZk" secondAttribute="height" id="a3U-Wz-eYe"/>
+                            <constraint firstItem="TG4-0C-QZk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="bMX-Ia-zkk"/>
+                            <constraint firstItem="LEN-h1-UVq" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="24" id="dBa-0N-sEW"/>
+                            <constraint firstItem="uMe-Ic-GX5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="eYl-YT-gfo"/>
+                            <constraint firstAttribute="trailing" secondItem="TG4-0C-QZk" secondAttribute="trailing" constant="10" id="kqy-AK-C7a"/>
+                            <constraint firstAttribute="trailing" secondItem="LEN-h1-UVq" secondAttribute="trailing" constant="10" id="nSd-U5-7O6"/>
+                            <constraint firstItem="W7I-FK-jXD" firstAttribute="top" secondItem="cSo-Cf-Cqq" secondAttribute="bottom" constant="20" id="raA-OC-hmX"/>
+                            <constraint firstItem="cSo-Cf-Cqq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="10" id="s5x-em-EDp"/>
+                            <constraint firstAttribute="trailing" secondItem="vs8-Yl-1Qk" secondAttribute="trailing" constant="10" id="yLH-tJ-SNj"/>
+                            <constraint firstItem="uMe-Ic-GX5" firstAttribute="top" secondItem="vs8-Yl-1Qk" secondAttribute="bottom" constant="20" id="zUc-eA-fqs"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="fifthLTView" destination="W7I-FK-jXD" id="PyW-1v-c1U"/>
+                        <outlet property="firstLTView" destination="LEN-h1-UVq" id="xZN-db-t0L"/>
+                        <outlet property="fourthLTView" destination="cSo-Cf-Cqq" id="Bms-6d-QXH"/>
+                        <outlet property="messageLabel" destination="uMe-Ic-GX5" id="XjM-3o-wnv"/>
+                        <outlet property="secondLTView" destination="TG4-0C-QZk" id="OF2-mG-r5d"/>
+                        <outlet property="sixthLTView" destination="vs8-Yl-1Qk" id="ApW-82-ZRs"/>
+                        <outlet property="thirdLTView" destination="2Us-sH-Gy8" id="eXi-vU-zQ6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="473" y="446"/>
+        </scene>
+    </scenes>
+</document>
